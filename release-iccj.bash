@@ -25,7 +25,7 @@ user=$2
 group=$3
 dir=/opt
 iccdir=$dir/icc
-dist=~/projects/dist
+dist=$PWD/dist
 
 if [ -d $dir/icc-pre-${version} ]; then
     rm -rf $dir/icc-pre-${version} > /dev/null 2>&1 
